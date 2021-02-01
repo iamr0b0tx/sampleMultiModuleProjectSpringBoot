@@ -1,2 +1,2 @@
-# id.twobitsconnect.com
-identity mgt
+# twobitsconnect Registration Server (backend)
+twobitsconnect identity mgt registration server
