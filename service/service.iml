@@ -6,6 +6,7 @@
         <setting name="validation-enabled" value="true" />
         <setting name="provider-name" value="Hibernate" />
         <datasource-mapping>
+          <factory-entry name="entityManagerFactory" />
           <factory-entry name="service" />
         </datasource-mapping>
         <naming-strategy-map />
@@ -13,6 +14,15 @@
     </facet>
     <facet type="Spring" name="Spring">
       <configuration />
+    </facet>
+    <facet type="web" name="Web">
+      <configuration>
+        <webroots />
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/src/main/java" />
+          <root url="file://$MODULE_DIR$/src/main/resources" />
+        </sourceRoots>
+      </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_15">
@@ -53,14 +63,13 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-orm:5.3.3" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-tx:5.3.3" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aspects:5.3.3" level="project" />
+    <orderEntry type="library" name="Maven: org.postgresql:postgresql:42.2.18" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.checkerframework:checker-qual:3.5.0" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-security:2.4.2" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.3.3" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.3.3" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.security:spring-security-config:5.4.2" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.security:spring-security-core:5.4.2" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.security:spring-security-web:5.4.2" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-expression:5.3.3" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-web:5.3.3" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter:2.4.2" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:2.4.2" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:5.3.3" level="project" />
@@ -105,5 +114,23 @@
     <orderEntry type="library" scope="TEST" name="Maven: com.vaadin.external.google:android-json:0.0.20131108.vaadin1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-test:5.3.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.xmlunit:xmlunit-core:2.7.0" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-web:2.4.2" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-json:2.4.2" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.11.4" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.11.4" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.11.4" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.11.4" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.11.4" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.module:jackson-module-parameter-names:2.11.4" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-tomcat:2.4.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-core:9.0.41" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish:jakarta.el:3.0.3" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-websocket:9.0.41" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-web:5.3.3" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.3.3" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:5.3.3" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-expression:5.3.3" level="project" />
+    <orderEntry type="library" name="Maven: jakarta.validation:jakarta.validation-api:2.0.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.h2database:h2:1.4.200" level="project" />
   </component>
 </module>
